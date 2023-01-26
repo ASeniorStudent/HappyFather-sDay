@@ -1,0 +1,102 @@
+body {
+  background-color: #82e4f8;
+  font-family:Oswald;
+    font-size:1.5em;
+  color: rgb(245, 240, 86)
+
+}
+
+a {
+  color: rgb(236, 230, 39);
+}
+
+a:hover {
+color: #93d0ec;
+}
+
+
+.header {
+ background-color: #212f50;
+ font-family:Anton;
+ margin-bottom: 0px;
+ padding: 10px;
+ border-right: solid;
+ border-left: solid;
+ border-bottom:thick solid rgb(186, 189, 0);}
+header h1{
+  font-size:3em;
+  color: rgb(255, 247, 26) 
+}
+body h2{
+  border-color:red;
+  font-size:2em;
+  color: rgb(241, 251, 106) 
+}
+body h3{
+  border-color:red;
+  font-size:1.5em;
+  color: rgb(246, 254, 134) 
+}
+
+body h4{
+  border-color:red;
+  font-size:1.25em;
+  color: rgb(249, 255, 158) 
+}
+
+body h5{
+  border-color:red;
+  font-size:0.75em;
+  color: rgb(246, 251, 177) 
+}
+
+
+header nav ul li {
+  display: inline;
+  font-size:1em;
+}
+.project {
+  margin-bottom: 0px;
+  padding-bottom: 10px;
+  border-left: solid;
+  border-right: solid;
+  border-bottom: solid;
+  color: #004a8f;
+}
+.project img, #aboutme img {
+  width:200px;
+  float: left;
+  margin-right:0px;
+  margin-bottom:0px;
+  
+}
+.project img, img {
+  width:330px;
+  float: Middle;
+  margin-right:0px;
+  margin-bottom:0px;
+  border-width: 1ch;
+.project h2 {
+  font-size:1.5em;
+  margin-bottom:10px;
+  
+  color: #004a8f;
+}
+project nav ul li {
+  display: inline;
+  font-size:1em;
+.clear {
+  clear: both;
+}
+.center {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%;
+}
+
+#project-container, #aboutme {
+  margin: 0 auto; /* centers projects div */
+  width: 90% /* adds space on either side */
+  max-width: 600px; /* keeps div from getting too wide */
+}
